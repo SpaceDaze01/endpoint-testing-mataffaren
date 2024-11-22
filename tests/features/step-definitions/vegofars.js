@@ -5,6 +5,12 @@ import { expect } from 'chai';
 let apiResponse; 
 
 Then('description should exist and not be empty', async function () {
+  const apiUrl = 'http://localhost:4000/api/axfood/rest/p/101275800_ST';
+
+  const res = await fetch(apiUrl);
+
+  expect(res.ok).to.be.true;
+  
   expect(apiResponse).to.be.an('object').that.is.not.empty;
 
   if (apiResponse.description) {
