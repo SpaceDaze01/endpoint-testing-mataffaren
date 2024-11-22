@@ -1249,7 +1249,7 @@
 							"    pm.expect(thumbnailUrl).to.match(/^https?:\\/\\/[^\\s$.?#].[^\\s]*$/); \r",
 							"});\r",
 							"\r",
-							"//ska inte gå igenom eftersom produkten saknar beskrivning på produkten\r",
+							"//ska inte gå igenom eftersom produkten saknar beskrivning\r",
 							"pm.test(\"Description should be present and not empty\", function () {\r",
 							"    const response = pm.response.json();\r",
 							"    const description = response.description;\r",

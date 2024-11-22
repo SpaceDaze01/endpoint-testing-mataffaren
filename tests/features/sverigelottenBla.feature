@@ -1,5 +1,5 @@
 Feature:sverigelottenBla
-  As a REST-api endpoint consumer I want to be able to get specific information about the product vegofars.
+  As a REST-api endpoint consumer I want to be able to get specific information about the product Sverigelotten Bla.
 
 
 
