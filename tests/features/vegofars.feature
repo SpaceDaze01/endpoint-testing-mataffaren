@@ -10,7 +10,7 @@ Feature: vegofars
     When I visit the endpoint "GET" "/api/leftMenu/categorytree"
     Then the status code of the response should be 200
     And the response time should be below 1000 milliseconds
-    And product should have a valid 'image.url' and 'thumbnail.url'
+    And the product should have a valid thumbnail.url and image.url
     And description should exist and not be empty
     And consumer storage instructions should be present and not empty
     And ingredients should be present and not empty
